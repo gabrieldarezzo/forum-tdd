@@ -1,3 +1,9 @@
+https://laracasts.com/series/lets-build-a-forum-with-laravel/episodes/3?autoplay=true
+
+
+```sql
+CREATE DATABASE forum COLLATE 'utf8_general_ci';
+```
 
 
 ```bash
@@ -58,10 +64,29 @@ $threads->each(function($thread){ factory('App\Reply', 10)->create(['thread_id' 
  ```bash
 php artisan config:cache
 php artisan config:clear
-php artisan migrate:refresh
+php artisan migrate:refresh 
+php artisan migrate:refresh --seed
 php artisan tinker
 $threads = factory('App\Thread', 50)->create();
 $threads->each(function($thread){ factory('App\Reply', 10)->create(['thread_id' => $thread->id]); });
 exit
 ./vendor/bin/phpunit
  ```
+php artisan config:cache
+php artisan config:clear
+
+
+
+
+```bash
+php artisan key:generate  
+```
+
+#### Caso tenha erro de permissão (normalmente ocorre em linux)   
+Fix permission in storage   
+```bash 
+chmod -R o+w storage
+```
+
+
+
