@@ -50,6 +50,8 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Throwable $exception)
     {
+        // if(app()->environment() === 'test') throw $exception; // N funfou :(
+        if (php_sapi_name() === 'cli') throw $exception; // Foi :)
         return parent::render($request, $exception);
     }
 }

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,8 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7194986-1643-474c-9926-f78d4c65cf8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Reply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Thread.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,9 +160,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/tests/Feature" />
+      <recent name="$PROJECT_DIR$/tests/Unit" />
+      <recent name="$PROJECT_DIR$/resources/views/threads" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -168,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603853383688</updated>
       <workItem from="1603853386952" duration="67000" />
-      <workItem from="1603853600183" duration="1743000" />
+      <workItem from="1603853600183" duration="6947000" />
     </task>
     <servers />
   </component>
@@ -188,13 +207,32 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2383" y="327" width="672" height="678" key="search.everywhere.popup" timestamp="1603855315088">
+    <state x="2363" y="338" width="694" height="762" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603856532731">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state x="2383" y="327" width="672" height="678" key="search.everywhere.popup/67.207.1373.873/1440.0.2560.1440@1440.0.2560.1440" timestamp="1603855315088" />
+    <state x="2363" y="338" width="694" height="762" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.207.1373.873/1440.0.2560.1440@1440.0.2560.1440" timestamp="1603856532731" />
+    <state x="2411" y="327" width="618" height="783" key="find.popup" timestamp="1603859987335">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2411" y="327" width="618" height="783" key="find.popup/67.207.1373.873/1440.0.2560.1440@1440.0.2560.1440" timestamp="1603859987335" />
+    <state x="2383" y="327" width="672" height="678" key="search.everywhere.popup" timestamp="1603860542021">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2383" y="327" width="672" height="678" key="search.everywhere.popup/67.207.1373.873/1440.0.2560.1440@1440.0.2560.1440" timestamp="1603860542021" />
     <state x="2445" y="633" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603853810990">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state x="2445" y="633" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.207.1373.873/1440.0.2560.1440@1440.0.2560.1440" timestamp="1603853810990" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Feature/ParticipantInForumTest.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,5 +1,5 @@
 
-https://laracasts.com/series/lets-build-a-forum-with-laravel/episodes/3?autoplay=true
+https://laracasts.com/series/lets-build-a-forum-with-laravel/episodes/5?autoplay=true
 
 
 ```sql

@@ -17,4 +17,9 @@ abstract class TestCase extends BaseTestCase
     //protected $baseUrl = 'http://localhost/blog/public';
 
     use CreatesApplication;
+
+    public function signIn($user)
+    {
+        $this->be($user);
+    }
 }
