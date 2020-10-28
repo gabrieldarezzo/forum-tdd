@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7194986-1643-474c-9926-f78d4c65cf8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Reply.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603853383688</updated>
       <workItem from="1603853386952" duration="67000" />
-      <workItem from="1603853600183" duration="1564000" />
+      <workItem from="1603853600183" duration="1743000" />
     </task>
     <servers />
   </component>
@@ -189,10 +188,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2383" y="327" width="672" height="678" key="search.everywhere.popup" timestamp="1603854434099">
+    <state x="2383" y="327" width="672" height="678" key="search.everywhere.popup" timestamp="1603855315088">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state x="2383" y="327" width="672" height="678" key="search.everywhere.popup/67.207.1373.873/1440.0.2560.1440@1440.0.2560.1440" timestamp="1603854434099" />
+    <state x="2383" y="327" width="672" height="678" key="search.everywhere.popup/67.207.1373.873/1440.0.2560.1440@1440.0.2560.1440" timestamp="1603855315088" />
     <state x="2445" y="633" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603853810990">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
